@@ -2,14 +2,14 @@
 Solving Home assignment
 
 ## Requirements
-
+Clone the repo.
 For building and running the application you need:
 
 - [JDK 1.11 or grater ]
 - [Maven 3]
 
 ## Problems 1:
-Go to [ProblemOneApp.java](https://github.com/madhurampotana/cs-home-assignment/blob/main/assignments/src/solve/problem/one/ProblemOneApp.java):
+Go to path [ProblemOneApp.java](https://github.com/madhurampotana/cs-home-assignment/blob/main/assignments/src/solve/problem/one/ProblemOneApp.java):
 To run:
 ```shell
 $ java ProblemOneApp.java
@@ -17,7 +17,7 @@ $ java ProblemOneApp.java
 Note: To stop entering the input values press any non integer value.
 
 ## Problems 2:
-Go to [ProblemTwoApp.java](https://github.com/madhurampotana/cs-home-assignment/blob/main/assignments/src/solve/problem/two/ProblemTwoApp.java):
+Go to path [ProblemTwoApp.java](https://github.com/madhurampotana/cs-home-assignment/blob/main/assignments/src/solve/problem/two/ProblemTwoApp.java):
 To run:
 ```shell
 $ java ProblemTwoApp.java
