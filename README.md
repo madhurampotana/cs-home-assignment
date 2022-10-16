@@ -25,7 +25,7 @@ $ java ProblemTwoApp.java
 Note: To stop entering the input values press q.
 
 ## Problems 3:
-
+Go to [path](https://github.com/madhurampotana/cs-home-assignment/tree/main/assignment) and build using following command.
 ```shell
 $ mvn clean install
 ```
