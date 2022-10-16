@@ -45,7 +45,7 @@ public class ProblemTwoApp {
 				if (doValidate(splitExpBySpace)) {
 					stArthExp.addAll(splitExpBySpace);
 					evaluationExpression(stArthExp);
-				}else {
+				} else {
 					System.out.println("error");
 				}
 			} catch (Exception ex) {
@@ -81,11 +81,20 @@ public class ProblemTwoApp {
 		while (!arthExp.isEmpty()) {
 			String evolveExp = arthExp.pop();
 			switch (evolveExp) {
-			case "+" -> calArtExpst.push(calArtExpst.pop() + calArtExpst.pop());
-			case "-" -> calArtExpst.push(calArtExpst.pop() - calArtExpst.pop());
-			case "*" -> calArtExpst.push(calArtExpst.pop() * calArtExpst.pop());
-			case "/" -> calArtExpst.push(calArtExpst.pop() / calArtExpst.pop());
-			default -> calArtExpst.push(Double.valueOf(evolveExp));
+			case "+":
+				calArtExpst.push(calArtExpst.pop() + calArtExpst.pop());
+				break;
+			case "-":
+				calArtExpst.push(calArtExpst.pop() - calArtExpst.pop());
+				break;
+			case "*":
+				calArtExpst.push(calArtExpst.pop() * calArtExpst.pop());
+				break;
+			case "/":
+				calArtExpst.push(calArtExpst.pop() / calArtExpst.pop());
+				break;
+			default:
+				calArtExpst.push(Double.valueOf(evolveExp));
 			}
 		}
 		if (calArtExpst.size() > 1)
