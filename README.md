@@ -3,7 +3,7 @@ Solving Home assignment
 
 ## Requirements
 Clone the repo.
-For building and running the application you need:
+For building and running the application you need have:
 
 - [JDK 1.11 or grater ]
 - [Maven 3]
